@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Trendyol Automation Project" preserve-order="true" parallel="classes" thread-count="1">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="Web">
+        <classes>
+            <class name="tests.AddToCartScenario"/>
+        </classes>
+    </test>
+</suite>
